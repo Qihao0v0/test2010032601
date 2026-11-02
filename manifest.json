@@ -1,0 +1,7 @@
+{
+    "name": "Paint the Memory",
+    "short_name": "Paint the Memory",
+    "start_url": "./",
+    "display": "standalone",
+    "icons": []
+}

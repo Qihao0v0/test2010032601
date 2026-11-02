@@ -1,0 +1,10 @@
+#memory_workbench {display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:12px;clear:both;margin-bottom:16px;}
+#memory_guest {min-width:0;overflow:auto;}
+#memory_guest #screen_container {float:none;margin:0;width:max-content;}
+#memory_painter {min-width:0;}
+#memory_controls {display:flex;align-items:center;flex-wrap:wrap;gap:8px;margin-top:8px;}
+#mp_size {width:55px;}
+#mp_address {width:110px;}
+#mp_canvas {box-sizing:border-box;width:100%;height:65vh;min-height:240px;display:block;border:1px solid #555;touch-action:none;cursor:crosshair;}
+#memory_controls input[type=color] {vertical-align:middle;}
+@media(max-width:950px) {#memory_workbench {grid-template-columns:1fr;}}
